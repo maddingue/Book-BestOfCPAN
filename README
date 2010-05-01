@@ -1,0 +1,60 @@
+NAME
+
+    Book::BestOfCPAN - Because the CPAN is huge
+
+
+DESCRIPTION
+
+        "CPAN is the language, Perl is just its syntax" -- Audrey Tang
+
+    This book is written with the hope to help people who wonder which of
+    the numerous modules available on the CPAN will answer the problems they
+    have (and maybe event the problems they will have).
+
+
+INSTALLATION
+
+    To install this module, run the following commands:
+
+        perl Makefile.PL
+        make
+        make test
+        make install
+
+    Alternatively, to install with Module::Build, you can use the
+    following commands:
+
+        perl Build.PL
+        ./Build
+        ./Build test
+        ./Build install
+
+
+SUPPORT AND DOCUMENTATION
+
+    After installing, you can find documentation for this module with the
+    perldoc command.
+
+        perldoc Book::BestOfCPAN
+
+    You can also look for information at:
+
+        RT, CPAN's request tracker
+            http://rt.cpan.org/Public/Dist/Display.html?Dist=Book-BestOfCPAN
+
+        AnnoCPAN, Annotated CPAN documentation
+            http://annocpan.org/dist/Book-BestOfCPAN
+
+        CPAN Ratings
+            http://cpanratings.perl.org/d/Book-BestOfCPAN
+
+        Search CPAN
+            http://search.cpan.org/dist/Book-BestOfCPAN
+
+
+COPYRIGHT & LICENSE
+    Copyright 2010 Sebastien Aperghis-Tramoni, all rights reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
