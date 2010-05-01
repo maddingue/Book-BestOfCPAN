@@ -88,14 +88,14 @@ L<http://search.cpan.org/dist/Book-BestOfCPAN>
 
 =head1 ACKNOWLEDGEMENTS
 
-Tim Bunce, for suggesting me to write this.
+Tim Bunce, for suggesting me to write this book.
 
 
 =head1 COPYRIGHT & LICENSE
 
 Copyright 2010 SE<eacute>bastien Aperghis-Tramoni, all rights reserved.
 
-This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
+This software and associated documentation are free software; you can
+redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut
