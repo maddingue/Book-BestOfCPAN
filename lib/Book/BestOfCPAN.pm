@@ -40,7 +40,11 @@ they have (and maybe event the problems they will have).
 
 =head1 CHAPTERS
 
-...
+=over
+
+=item L<Preface|Book::BestOfCPAN::Preface>
+
+=back
 
 
 =head1 AUTHOR

@@ -4,6 +4,7 @@ Makefile.PL
 Changes
 README
 lib/Book/BestOfCPAN.pm
+lib/Book/BestOfCPAN/Preface.pod
 t/00-load.t
 t/pod-coverage.t
 t/pod.t
