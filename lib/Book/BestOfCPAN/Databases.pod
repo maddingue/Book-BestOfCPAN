@@ -1,0 +1,75 @@
+=head1 NAME
+
+Book::BestOfCPAN::Databases - All your database are belong to us!
+
+=head1 CONTENTS
+
+=head2 DBI
+
+Contrary to Perl's motto, there's (mostly) one way to access databases,
+the B<DBI> module, created and maintained by Tim Bunce and many other
+contributors, but given the quality of the module, noone complains
+about the lack of an alternative.
+
+C<DBI> has drivers (called C<DBD>) for all major databases (Oracle,
+DB2, PostgreSQL, MySQL, SQLite, Unify, Sybase, Ingres, ADO DB and
+many more) as well as for other common APIs like JDBC and ODBC to
+access exotic databases. It also provides support for statefull
+(C<DBI::Proxy>) and stateless (C<DBD::Gofer>) proxyfied connections,
+in case your application lives one or two firewalls away from the
+database.
+
+=over
+
+=item DBI web site: L<http://dbi.perl.org/>
+
+=item DBI on Search CPAN: L<http://search.cpan.org/dist/DBI/>
+
+=back
+
+
+=head2 DBI extensions
+
+* C<DBIx::Simple>
+* C<SQL::Abstract>
+
+
+=head2 SQL templating
+
+C<DBI> supports placeholders, and this is good. But positional
+placeholders are very impractical when there are many parameters,
+and unfortunately, there is no 
+* C<Data::Phrasebook::SQL>
+
+
+=head2 Asynchronous programming
+
+POE::Component::EasyDBI
+AnyEvent::DBI
+
+
+=head2 ORMs and high-level database abstraction
+
+High-level database abstraction models like ORMs exist since many
+years on the CPAN. The first generation comprised modules like
+C<Tangram>, C<Alzabo> or C<SPOPS>. Then came C<Class::DBI>, but
+after a few years and some drame, B<DBIx::Class> is the current
+king of the hill. However there still other modules to explore
+different ways, like C<Rose::DB::Object>, C<DBIx::DataModel>
+(with a UML touch in mind) or C<Fey::ORM>.
+
+
+=head2 Non-SQL databases
+
+The recent years have seen the data become more and more complex,
+
+KiokuDB
+CouchDB
+
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2010 SE<eacute>bastien Aperghis-Tramoni, all rights reserved.
+
+This software and associated documentation are free software; you can
+redistribute it and/or modify it under the same terms as Perl itself.
