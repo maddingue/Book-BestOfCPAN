@@ -1,0 +1,75 @@
+=head1 NAME
+
+Book::BestOfCPAN::DataManipulation - 
+
+=head1 CONTENTS
+
+=head2 Lists munging
+
+Because C<grep> and C<map> are not enough.
+
+B<List::Util>
+
+    first  max  maxstr  min  minstr  reduce  shuffle  sum
+
+B<List::MoreUtils>
+
+    any  all  none  notall  each_array  pairwise  natatime
+    mesh  zip  uniq  minmax
+
+
+=head2 Regular Expressions
+
+B<Regexp::Common>
+
+    while (<>) {
+        /$RE{num}{real}/ and print "got a number";
+        /$RE{net}{IPv4}/ and print "got an IP address";
+    }
+
+B<Regexp::Assemble>
+
+    my $ra = Regexp::Assemble->new;
+    $ra->add( "cra+ck", "cru+nch", "clu+n+ck" );
+    print $ra->re;   # "(?-xism:c(?:r(?:u+nch|a+ck)|lu+n+ck))"
+
+
+B<Text::Match::FastAlternatives>, like C<join "|", @words>, just
+way more efficient
+
+
+=head2 Date and time
+
+B<Time::HiRes>
+
+B<Date::Parse>
+
+    $time = str2time($date);
+    ($sec, $min, $hour, $day, $month, $year, $zone) = strptime($date);
+
+
+B<DateTime>, one of the jewel of the CPAN
+explain about what not handling leap years or leap seconds can lead to
+(PS3 failure, Zune failure)
+
+C<DateTime::Set>, C<DateTime::Span>
+C<DateTime::Calendar::> Chinese, Christian, Coptic, FrenchRevolutionary, 
+Hebrew, Japanese, Mayan, Pataphysical
+
+Ask Jean about his example
+
+
+=head2 Numbers
+
+B<bignum>, B<bigint>, B<bigrat>
+
+B<PDL> (Perl Data Language == MatLab en Perl)
+
+
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2010 SE<eacute>bastien Aperghis-Tramoni, all rights reserved.
+
+This software and associated documentation are free software; you can
+redistribute it and/or modify it under the same terms as Perl itself.
