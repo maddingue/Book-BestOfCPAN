@@ -1,0 +1,20 @@
+=head1 NAME
+
+Book::BestOfCPAN::EventUI - Event programming
+
+=head1 CONTENTS
+
+=head2 Event programming
+
+POE (Perl Object Environment)
+L<http://poe.perl.org>
+
+AnyEvent
+
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2010 SE<eacute>bastien Aperghis-Tramoni, all rights reserved.
+
+This software and associated documentation are free software; you can
+redistribute it and/or modify it under the same terms as Perl itself.
