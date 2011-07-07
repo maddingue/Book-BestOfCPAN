@@ -1,0 +1,35 @@
+=head1 NAME
+
+Book::BestOfCPAN::FilesManipulation - 
+
+=head1 CONTENTS
+
+
+=head2 Archiving
+
+B<Archive::Tar>, B<Archive::Zip>
+
+B<IO::Compress:Zlib>, B<IO::Compress:Bzip2>, B<IO::Compress::Lzma>
+
+
+=head2 Paths
+
+B<File::Spec>, B<Path::Class>
+
+B<File::Find::Rule>, C<File::Next>, C<File::Wildcard>
+
+B<File::HomeDir>, C<File::ShareDir>
+
+
+=head2 Files content
+
+B<File::Slurp>, C<File::Tail>, C<File::Temp>
+
+
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2010 SE<eacute>bastien Aperghis-Tramoni, all rights reserved.
+
+This software and associated documentation are free software; you can
+redistribute it and/or modify it under the same terms as Perl itself.
