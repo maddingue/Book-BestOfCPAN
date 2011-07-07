@@ -1,0 +1,51 @@
+=head1 NAME
+
+Book::BestOfCPAN::xxx - 
+
+=head1 CONTENTS
+
+= Shell
++>>
+* C<Getopt::Long>
+* C<Pod::Usage>
+* 
+
+=begin filter perl
+
+    my %options = (
+         debug => 0,
+    );
+
+    GetOptions(\%options, qw{
+        help|h!  version|V!
+        debug|d!  config|c=s
+    }) or pod2usage(0);
+
+    pod2usage({ -verbose => 2, -exitval => 0, -noperldoc => 1 })
+        if $options{help};
+
+=end filter perl
+-
+
+
+= Programmes
++>>
+* C<Proc::Daemon>, C<Proc::Background>
+* C<IPC::Run>
+* 
+
+=begin filter perl
+
+    my @cmd = qw(ps auwx);
+    run \@cmd, \$input, \$output, \$errors or die "$cmd[0]: $?"
+
+=end filter perl
+-
+
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2010 SE<eacute>bastien Aperghis-Tramoni, all rights reserved.
+
+This software and associated documentation are free software; you can
+redistribute it and/or modify it under the same terms as Perl itself.
