@@ -42,7 +42,22 @@ they have (and maybe event the problems they will have).
 
 =over
 
-=item L<Preface|Book::BestOfCPAN::Preface>
+=item L<Book::BestOfCPAN::Preface>
+
+=item L<Book::BestOfCPAN::DataManipulation>
+- 
+
+=item L<Book::BestOfCPAN::FilesManipulation>
+- 
+
+=item L<Book::BestOfCPAN::LanguageExtension>
+- Extend the language beyond its limits
+
+=item L<Book::BestOfCPAN::Databases>
+- All your database are belong to us!
+
+=item L<Book::BestOfCPAN::Networking>
+- 
 
 =back
 
