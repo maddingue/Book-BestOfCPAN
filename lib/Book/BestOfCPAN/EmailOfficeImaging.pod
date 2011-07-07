@@ -1,0 +1,44 @@
+=head1 NAME
+
+Book::BestOfCPAN::xxx - 
+
+=head1 CONTENTS
+
+= Courriel
++>>
+* C<MIME::Lite>, C<MIME::Parser>
+* C<Net::SMTP>, C<Net::POP3>
+* C<Email::Simple>, C<Email::MIME>, C<Email::Folder> et tous les 
+modules du I<Perl Email Project>
+* C<Mail::IMAPClient>, C<Mail::Box>
+-
+
+
+= Documents
++>>
+* Bureautique
++>>
+* C<Text::CSV_XS>
+* C<Spreadsheet::WriteExcel>, C<Spreadsheet::ParseExcel>
+* C<OpenOffice::OODoc>, C<Spreadsheet::ReadSXC>
+* C<Spreadsheet::Read>, C<Spreadsheet::Write> 
+* C<PDF::API2>
+-
+-
+
+= Documents
++>>
+* Images
++>>
+* C<GD>, C<Image::Magick>, C<Gimp>, C<Imager>
+* B<PDL>
+-
+-
+
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2010 SE<eacute>bastien Aperghis-Tramoni, all rights reserved.
+
+This software and associated documentation are free software; you can
+redistribute it and/or modify it under the same terms as Perl itself.
