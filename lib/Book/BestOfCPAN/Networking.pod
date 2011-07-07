@@ -1,0 +1,32 @@
+=head1 NAME
+
+Book::BestOfCPAN::Networking - 
+
+=head1 CONTENTS
+
+
+= Réseau
+
+* Protocoles réseau
++>>
+* C<Net::FTP>, C<Net::SSH>, C<Net::SCP>
+* C<Net::DNS>, C<Net::Ping>, C<Net::DHCP>
+* C<Net::LDAP>, C<Net::NNTP>, C<Net::RADIUS>
+* C<Net::TacacsPlus>, C<Net::SIP>, C<Net::STOMP>...
+-
+
+* Réseau bas niveau
++>>
+* C<Net::Pcap>, C<Net::Frame>, C<Net::Packet>
+-
+-
+
+Let's not forget POE & AnyEvent!
+
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2010 SE<eacute>bastien Aperghis-Tramoni, all rights reserved.
+
+This software and associated documentation are free software; you can
+redistribute it and/or modify it under the same terms as Perl itself.
