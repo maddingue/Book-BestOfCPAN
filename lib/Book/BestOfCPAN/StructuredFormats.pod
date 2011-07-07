@@ -1,0 +1,60 @@
+=head1 NAME
+
+Book::BestOfCPAN::xxx - 
+
+=head1 CONTENTS
+
+= XML
++>>
+* C<XML::LibXML>, C<XML::LibXSLT>
+
+=begin filter perl
+
+    my $parser = XML::LibXML->new;
+    my $doc = $parse->parse_file($file);
+
+    my ($node) = $doc->findnodes("/root/path/node[1]");
+
+=end filter
+
+* C<XML::SAX>
+* C<XML::Twig>
+* C<XML::Tiny>
+-
+
+= Sérialisation
++>>
+* C<Data::Dumper>, C<Storable>
+* C<YAML>, C<YAML::XS>
+
+=begin filter perl
+
+    YAML::DumpFile($file, \%complex_structure);
+
+    my $struct = YAML::LoadFile($file);
+
+=end filter
+
+* C<JSON>, C<JSON::XS>
+
+=begin filter perl
+
+    my $struct = from_json( $request->content );
+
+    $response->add_content( to_json(\%data) );
+
+=end filter
+-
+
+
+Config files
+
+
+
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2010 SE<eacute>bastien Aperghis-Tramoni, all rights reserved.
+
+This software and associated documentation are free software; you can
+redistribute it and/or modify it under the same terms as Perl itself.
