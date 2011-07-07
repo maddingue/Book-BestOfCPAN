@@ -1,0 +1,25 @@
+=head1 NAME
+
+Book::BestOfCPAN::LanguageExtension - Extend the language beyond its limits
+
+=head1 CONTENTS
+
+=head2 External languages
+
+* Inline : C, Java, Python, Ruby, Tcl, Befunge, Lua
+
+
+=head2 External libraries
+
+* XS
+* SWIG
+* P5NCI, FFI
+
+
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2010 SE<eacute>bastien Aperghis-Tramoni, all rights reserved.
+
+This software and associated documentation are free software; you can
+redistribute it and/or modify it under the same terms as Perl itself.
