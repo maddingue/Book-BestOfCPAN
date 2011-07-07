@@ -1,4 +1,8 @@
-=head1 Book::BestOfCPAN::Preface
+=head1 NAME
+
+Book::BestOfCPAN::Preface - Preface of I<Best of CPAN>
+
+=head2 CONTENTS
 
 The source of this book is available on GitHub
 
